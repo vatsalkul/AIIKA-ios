@@ -3,27 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		166CD4C086C02E74C24ABC18 /* Pods_AIIKA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573DCFD72AA9744455D6BEC7 /* Pods_AIIKA.framework */; };
 		4616477123B66A4000E2E449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4616477023B66A4000E2E449 /* AppDelegate.swift */; };
 		4616477323B66A4000E2E449 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4616477223B66A4000E2E449 /* SceneDelegate.swift */; };
-		4616477523B66A4000E2E449 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4616477423B66A4000E2E449 /* ViewController.swift */; };
 		4616477823B66A4000E2E449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4616477623B66A4000E2E449 /* Main.storyboard */; };
 		4616477A23B66A4200E2E449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4616477923B66A4200E2E449 /* Assets.xcassets */; };
 		4616477D23B66A4200E2E449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4616477B23B66A4200E2E449 /* LaunchScreen.storyboard */; };
+		4653A45C23B8A6D200004D06 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4653A45B23B8A6D200004D06 /* RegistrationViewController.swift */; };
+		4653A45E23B8AF8E00004D06 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4653A45D23B8AF8E00004D06 /* Alert.swift */; };
+		4653A46023B8D2EA00004D06 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4653A45F23B8D2EA00004D06 /* NewsViewController.swift */; };
+		4653A46223B8D61900004D06 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4653A46123B8D61900004D06 /* DataTableViewCell.swift */; };
+		4662E7DC23C649DB0005551D /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4662E7DB23C649DB0005551D /* ContactDetailViewController.swift */; };
+		4662E7DE23C660110005551D /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4662E7DD23C660110005551D /* TitleTableViewCell.swift */; };
+		46A2ABCB23BFD4CC00EF8BA3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2ABCA23BFD4CC00EF8BA3 /* Model.swift */; };
+		46A2ABCD23BFD7BE00EF8BA3 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2ABCC23BFD7BE00EF8BA3 /* News.swift */; };
+		46B1CB0923C9DC9600712233 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1CB0823C9DC9600712233 /* NewsDetailViewController.swift */; };
+		46DCEE3123BFD97900C55919 /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DCEE3023BFD97900C55919 /* Directory.swift */; };
+		46EB706A23BA238000735708 /* DirectoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB706923BA238000735708 /* DirectoryTableViewCell.swift */; };
+		46EB706C23BA267200735708 /* DirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB706B23BA267200735708 /* DirectoryViewController.swift */; };
+		46EB706E23BF1CD900735708 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB706D23BF1CD900735708 /* EventsViewController.swift */; };
+		46EB707123BF21F400735708 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB707023BF21F400735708 /* Events.swift */; };
+		46EB707423BF249B00735708 /* EventsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB707323BF249B00735708 /* EventsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4616476D23B66A4000E2E449 /* AIIKA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIIKA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4616477023B66A4000E2E449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4616477223B66A4000E2E449 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4616477423B66A4000E2E449 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4616477723B66A4000E2E449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4616477923B66A4200E2E449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4616477C23B66A4200E2E449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4616477E23B66A4200E2E449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4653A45B23B8A6D200004D06 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		4653A45D23B8AF8E00004D06 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		4653A45F23B8D2EA00004D06 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		4653A46123B8D61900004D06 /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		4662E7DB23C649DB0005551D /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		4662E7DD23C660110005551D /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		46A2ABCA23BFD4CC00EF8BA3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		46A2ABCC23BFD7BE00EF8BA3 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		46B1CB0823C9DC9600712233 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		46DCEE3023BFD97900C55919 /* Directory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
+		46EB706923BA238000735708 /* DirectoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryTableViewCell.swift; sourceTree = "<group>"; };
+		46EB706B23BA267200735708 /* DirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryViewController.swift; sourceTree = "<group>"; };
+		46EB706D23BF1CD900735708 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		46EB707023BF21F400735708 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		46EB707323BF249B00735708 /* EventsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCollectionViewCell.swift; sourceTree = "<group>"; };
+		573DCFD72AA9744455D6BEC7 /* Pods_AIIKA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIIKA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B849543AE422B9819DA35713 /* Pods-AIIKA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIIKA.debug.xcconfig"; path = "Target Support Files/Pods-AIIKA/Pods-AIIKA.debug.xcconfig"; sourceTree = "<group>"; };
+		E82BFBB7B5B12A51AD07ECE8 /* Pods-AIIKA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIIKA.release.xcconfig"; path = "Target Support Files/Pods-AIIKA/Pods-AIIKA.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166CD4C086C02E74C24ABC18 /* Pods_AIIKA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A25F34ADCBDC79C9A0DAD99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B849543AE422B9819DA35713 /* Pods-AIIKA.debug.xcconfig */,
+				E82BFBB7B5B12A51AD07ECE8 /* Pods-AIIKA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4616476423B66A3F00E2E449 = {
 			isa = PBXGroup;
 			children = (
 				4616476F23B66A4000E2E449 /* AIIKA */,
 				4616476E23B66A4000E2E449 /* Products */,
+				0A25F34ADCBDC79C9A0DAD99 /* Pods */,
+				7DCAD69910F9A086A2879770 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +100,69 @@
 		4616476F23B66A4000E2E449 /* AIIKA */ = {
 			isa = PBXGroup;
 			children = (
+				46FB36DA23C9BF90005EBF71 /* Services */,
+				46EB707223BF246600735708 /* CellViews */,
+				46EB706F23BF21E200735708 /* Data */,
+				4653A45823B8A64900004D06 /* ViewControllers */,
 				4616477023B66A4000E2E449 /* AppDelegate.swift */,
 				4616477223B66A4000E2E449 /* SceneDelegate.swift */,
-				4616477423B66A4000E2E449 /* ViewController.swift */,
 				4616477623B66A4000E2E449 /* Main.storyboard */,
 				4616477923B66A4200E2E449 /* Assets.xcassets */,
 				4616477B23B66A4200E2E449 /* LaunchScreen.storyboard */,
 				4616477E23B66A4200E2E449 /* Info.plist */,
+				4653A45D23B8AF8E00004D06 /* Alert.swift */,
+				46A2ABCA23BFD4CC00EF8BA3 /* Model.swift */,
 			);
 			path = AIIKA;
+			sourceTree = "<group>";
+		};
+		4653A45823B8A64900004D06 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4653A45B23B8A6D200004D06 /* RegistrationViewController.swift */,
+				4653A45F23B8D2EA00004D06 /* NewsViewController.swift */,
+				46EB706B23BA267200735708 /* DirectoryViewController.swift */,
+				46EB706D23BF1CD900735708 /* EventsViewController.swift */,
+				4662E7DB23C649DB0005551D /* ContactDetailViewController.swift */,
+				46B1CB0823C9DC9600712233 /* NewsDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		46EB706F23BF21E200735708 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				46EB707023BF21F400735708 /* Events.swift */,
+				46A2ABCC23BFD7BE00EF8BA3 /* News.swift */,
+				46DCEE3023BFD97900C55919 /* Directory.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		46EB707223BF246600735708 /* CellViews */ = {
+			isa = PBXGroup;
+			children = (
+				4653A46123B8D61900004D06 /* DataTableViewCell.swift */,
+				46EB706923BA238000735708 /* DirectoryTableViewCell.swift */,
+				46EB707323BF249B00735708 /* EventsCollectionViewCell.swift */,
+				4662E7DD23C660110005551D /* TitleTableViewCell.swift */,
+			);
+			path = CellViews;
+			sourceTree = "<group>";
+		};
+		46FB36DA23C9BF90005EBF71 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7DCAD69910F9A086A2879770 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				573DCFD72AA9744455D6BEC7 /* Pods_AIIKA.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4616478123B66A4200E2E449 /* Build configuration list for PBXNativeTarget "AIIKA" */;
 			buildPhases = (
+				700E9F899DE5B984F2F45B2A /* [CP] Check Pods Manifest.lock */,
 				4616476923B66A3F00E2E449 /* Sources */,
 				4616476A23B66A3F00E2E449 /* Frameworks */,
 				4616476B23B66A3F00E2E449 /* Resources */,
+				E1C07822707C3755E9B687BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +233,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		700E9F899DE5B984F2F45B2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIIKA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C07822707C3755E9B687BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIIKA/Pods-AIIKA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIIKA/Pods-AIIKA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AIIKA/Pods-AIIKA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4616476923B66A3F00E2E449 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4616477523B66A4000E2E449 /* ViewController.swift in Sources */,
+				4653A45E23B8AF8E00004D06 /* Alert.swift in Sources */,
+				46B1CB0923C9DC9600712233 /* NewsDetailViewController.swift in Sources */,
+				4662E7DC23C649DB0005551D /* ContactDetailViewController.swift in Sources */,
+				46EB707123BF21F400735708 /* Events.swift in Sources */,
 				4616477123B66A4000E2E449 /* AppDelegate.swift in Sources */,
+				46EB706C23BA267200735708 /* DirectoryViewController.swift in Sources */,
+				46A2ABCD23BFD7BE00EF8BA3 /* News.swift in Sources */,
 				4616477323B66A4000E2E449 /* SceneDelegate.swift in Sources */,
+				46EB707423BF249B00735708 /* EventsCollectionViewCell.swift in Sources */,
+				4662E7DE23C660110005551D /* TitleTableViewCell.swift in Sources */,
+				46DCEE3123BFD97900C55919 /* Directory.swift in Sources */,
+				46A2ABCB23BFD4CC00EF8BA3 /* Model.swift in Sources */,
+				4653A46023B8D2EA00004D06 /* NewsViewController.swift in Sources */,
+				46EB706A23BA238000735708 /* DirectoryTableViewCell.swift in Sources */,
+				4653A45C23B8A6D200004D06 /* RegistrationViewController.swift in Sources */,
+				4653A46223B8D61900004D06 /* DataTableViewCell.swift in Sources */,
+				46EB706E23BF1CD900735708 /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +438,13 @@
 		};
 		4616478223B66A4200E2E449 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B849543AE422B9819DA35713 /* Pods-AIIKA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RG8WZR6JK3;
 				INFOPLIST_FILE = AIIKA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +458,13 @@
 		};
 		4616478323B66A4200E2E449 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82BFBB7B5B12A51AD07ECE8 /* Pods-AIIKA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RG8WZR6JK3;
 				INFOPLIST_FILE = AIIKA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
