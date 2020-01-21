@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-AIIKA/Pods-AIIKA-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework
+${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework
+${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework
+${BUILT_PRODUCTS_DIR}/UPCarouselFlowLayout/UPCarouselFlowLayout.framework
