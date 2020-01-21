@@ -1,30 +1,22 @@
 PODS:
-  - AWSCognito (2.12.5):
-    - AWSCore (= 2.12.5)
-  - AWSCore (2.12.5)
-  - AWSS3 (2.12.5):
-    - AWSCore (= 2.12.5)
+  - SDWebImage (5.5.1):
+    - SDWebImage/Core (= 5.5.1)
+  - SDWebImage/Core (5.5.1)
   - UPCarouselFlowLayout (1.1.2)
 
 DEPENDENCIES:
-  - AWSCognito
-  - AWSCore
-  - AWSS3
+  - SDWebImage (~> 5.0)
   - UPCarouselFlowLayout
 
 SPEC REPOS:
   trunk:
-    - AWSCognito
-    - AWSCore
-    - AWSS3
+    - SDWebImage
     - UPCarouselFlowLayout
 
 SPEC CHECKSUMS:
-  AWSCognito: c17db6fff09d0338b8fc72810cb13b185d106bfb
-  AWSCore: 543d1c281ad08401d0a99e181526aa529051a8ad
-  AWSS3: 43c54c47c90e0ba408784117827a085ca5123830
+  SDWebImage: 1245d058b7b8f59adef7a6da6bbafd4f1ab67041
   UPCarouselFlowLayout: 4c7d2c43a10ebb1597bde502a53699d378341dad
 
-PODFILE CHECKSUM: a872c6f6d5d284b060bf735072637d7f81fe7111
+PODFILE CHECKSUM: b4037ef56fe9ebbb87ded5620b31d4dc19c726e4
 
 COCOAPODS: 1.8.4

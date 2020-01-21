@@ -6,8 +6,7 @@ target 'AIIKA' do
   use_frameworks!
 	
   # Pods for AIIKA
-	pod 'AWSCore'
-	pod'AWSCognito'
-	pod'AWSS3'
 	pod "UPCarouselFlowLayout"
+	platform :ios, '8.0'
+	pod 'SDWebImage', '~> 5.0'
 end	

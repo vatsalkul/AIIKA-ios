@@ -13,18 +13,13 @@
 		4616477823B66A4000E2E449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4616477623B66A4000E2E449 /* Main.storyboard */; };
 		4616477A23B66A4200E2E449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4616477923B66A4200E2E449 /* Assets.xcassets */; };
 		4616477D23B66A4200E2E449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4616477B23B66A4200E2E449 /* LaunchScreen.storyboard */; };
-		4653A45C23B8A6D200004D06 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4653A45B23B8A6D200004D06 /* RegistrationViewController.swift */; };
 		4653A45E23B8AF8E00004D06 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4653A45D23B8AF8E00004D06 /* Alert.swift */; };
 		4653A46023B8D2EA00004D06 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4653A45F23B8D2EA00004D06 /* NewsViewController.swift */; };
 		4653A46223B8D61900004D06 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4653A46123B8D61900004D06 /* DataTableViewCell.swift */; };
-		4662E7DC23C649DB0005551D /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4662E7DB23C649DB0005551D /* ContactDetailViewController.swift */; };
 		4662E7DE23C660110005551D /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4662E7DD23C660110005551D /* TitleTableViewCell.swift */; };
 		46A2ABCB23BFD4CC00EF8BA3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2ABCA23BFD4CC00EF8BA3 /* Model.swift */; };
 		46A2ABCD23BFD7BE00EF8BA3 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2ABCC23BFD7BE00EF8BA3 /* News.swift */; };
 		46B1CB0923C9DC9600712233 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1CB0823C9DC9600712233 /* NewsDetailViewController.swift */; };
-		46DCEE3123BFD97900C55919 /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DCEE3023BFD97900C55919 /* Directory.swift */; };
-		46EB706A23BA238000735708 /* DirectoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB706923BA238000735708 /* DirectoryTableViewCell.swift */; };
-		46EB706C23BA267200735708 /* DirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB706B23BA267200735708 /* DirectoryViewController.swift */; };
 		46EB706E23BF1CD900735708 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB706D23BF1CD900735708 /* EventsViewController.swift */; };
 		46EB707123BF21F400735708 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB707023BF21F400735708 /* Events.swift */; };
 		46EB707423BF249B00735708 /* EventsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB707323BF249B00735708 /* EventsCollectionViewCell.swift */; };
@@ -38,18 +33,13 @@
 		4616477923B66A4200E2E449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4616477C23B66A4200E2E449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4616477E23B66A4200E2E449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4653A45B23B8A6D200004D06 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		4653A45D23B8AF8E00004D06 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		4653A45F23B8D2EA00004D06 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		4653A46123B8D61900004D06 /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
-		4662E7DB23C649DB0005551D /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
 		4662E7DD23C660110005551D /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		46A2ABCA23BFD4CC00EF8BA3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		46A2ABCC23BFD7BE00EF8BA3 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		46B1CB0823C9DC9600712233 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
-		46DCEE3023BFD97900C55919 /* Directory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
-		46EB706923BA238000735708 /* DirectoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryTableViewCell.swift; sourceTree = "<group>"; };
-		46EB706B23BA267200735708 /* DirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryViewController.swift; sourceTree = "<group>"; };
 		46EB706D23BF1CD900735708 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		46EB707023BF21F400735708 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		46EB707323BF249B00735708 /* EventsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -119,11 +109,8 @@
 		4653A45823B8A64900004D06 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				4653A45B23B8A6D200004D06 /* RegistrationViewController.swift */,
 				4653A45F23B8D2EA00004D06 /* NewsViewController.swift */,
-				46EB706B23BA267200735708 /* DirectoryViewController.swift */,
 				46EB706D23BF1CD900735708 /* EventsViewController.swift */,
-				4662E7DB23C649DB0005551D /* ContactDetailViewController.swift */,
 				46B1CB0823C9DC9600712233 /* NewsDetailViewController.swift */,
 			);
 			path = ViewControllers;
@@ -134,7 +121,6 @@
 			children = (
 				46EB707023BF21F400735708 /* Events.swift */,
 				46A2ABCC23BFD7BE00EF8BA3 /* News.swift */,
-				46DCEE3023BFD97900C55919 /* Directory.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -143,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				4653A46123B8D61900004D06 /* DataTableViewCell.swift */,
-				46EB706923BA238000735708 /* DirectoryTableViewCell.swift */,
 				46EB707323BF249B00735708 /* EventsCollectionViewCell.swift */,
 				4662E7DD23C660110005551D /* TitleTableViewCell.swift */,
 			);
@@ -282,19 +267,14 @@
 			files = (
 				4653A45E23B8AF8E00004D06 /* Alert.swift in Sources */,
 				46B1CB0923C9DC9600712233 /* NewsDetailViewController.swift in Sources */,
-				4662E7DC23C649DB0005551D /* ContactDetailViewController.swift in Sources */,
 				46EB707123BF21F400735708 /* Events.swift in Sources */,
 				4616477123B66A4000E2E449 /* AppDelegate.swift in Sources */,
-				46EB706C23BA267200735708 /* DirectoryViewController.swift in Sources */,
 				46A2ABCD23BFD7BE00EF8BA3 /* News.swift in Sources */,
 				4616477323B66A4000E2E449 /* SceneDelegate.swift in Sources */,
 				46EB707423BF249B00735708 /* EventsCollectionViewCell.swift in Sources */,
 				4662E7DE23C660110005551D /* TitleTableViewCell.swift in Sources */,
-				46DCEE3123BFD97900C55919 /* Directory.swift in Sources */,
 				46A2ABCB23BFD4CC00EF8BA3 /* Model.swift in Sources */,
 				4653A46023B8D2EA00004D06 /* NewsViewController.swift in Sources */,
-				46EB706A23BA238000735708 /* DirectoryTableViewCell.swift in Sources */,
-				4653A45C23B8A6D200004D06 /* RegistrationViewController.swift in Sources */,
 				4653A46223B8D61900004D06 /* DataTableViewCell.swift in Sources */,
 				46EB706E23BF1CD900735708 /* EventsViewController.swift in Sources */,
 			);
